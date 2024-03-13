@@ -1,0 +1,47 @@
+
+.container {
+    padding: 2rem 7%;
+}
+
+.container h1 {
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.main-card{
+    height: 50vh;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card{
+    height: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border:  1px solid #e2dcdc;
+}
+
+.move {
+    height: 500px;
+    background: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pop {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
